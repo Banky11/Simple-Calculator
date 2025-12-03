@@ -1,11 +1,11 @@
 body{
     display: block;
     text-align: center;
-    background-color: #0b3d0bd3;
+    background-color: #c9fab5;
 }
 main{
     background-color: #024117d3;
-    width: 420px;
+    width: 350px;
     justify-self: center;
     margin: auto;
     margin-top: 100px;
@@ -18,6 +18,15 @@ h2{
     font-weight: 900px;
     font-size: 30px;
     color: white;
+}
+.firstSec{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width: 250px;
+    margin: auto;
+    padding: 20px;
 }
 .first{
     display: flex;
@@ -69,14 +78,14 @@ button{
     color: rgb(255, 255, 255);
 }
 p{
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(255, 255, 255)
 }
 
 input{
     padding: 10px 0;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     border: none;
 }
