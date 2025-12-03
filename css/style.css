@@ -1,0 +1,84 @@
+body{
+    display: block;
+    text-align: center;
+}
+main{
+    background-color: #024117d3;
+    width: 500px;
+    justify-self: center;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
+h2{
+    font-weight: 900px;
+    font-size: 30px;
+    color: white;
+}
+.first{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btnsec{
+    background-color: black;
+  justify-self: center;
+}
+button{
+    background-color: blue;
+    color: white;
+   padding: 10px 40px;
+   border: none;
+}
+.add{
+    background-color: rgb(145, 41, 113);
+    color: rgb(255, 255, 255);
+    
+}
+.add:hover{
+    background-color: rgb(231, 98, 191);
+}
+.subt{
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+.subt:hover{
+    background-color: rgb(202, 11, 11);
+    color: rgb(250, 249, 249);
+}
+.mult{
+    background-color: rgb(255, 255, 255);
+    color: brown;
+}
+.mult:hover{
+    background-color: rgb(245, 239, 239);
+    color: brown;
+}
+.divide{
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+.divide:hover{
+    background-color: rgb(83, 197, 83);
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 30px;
+    color: rgb(255, 255, 255)
+}
+
+input{
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+}
+input:focus{
+    outline: none;
+    border: 2px solid rgb(83, 197, 83);
+}
