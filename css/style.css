@@ -1,12 +1,14 @@
 body{
     display: block;
     text-align: center;
+    background-color: #0b3d0bd3;
 }
 main{
     background-color: #024117d3;
-    width: 500px;
+    width: 450px;
     justify-self: center;
-    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
     padding-bottom: 20px;
     padding-top: 20px;
     border-radius: 10px;
